@@ -18,7 +18,7 @@ Sensitive victim information in the screenshot below and the example config file
 
 ## Configuration structure
 
-With these novel BlackCat Ransomware samples this config extractor could easily be replaced by a bash one-liner (e.g. ```strings ... | grep "{config_id" > config.json```), but I expect that there will be config obfuscation/encryption added in future samples of BlackCat, similar to e.g. the changes made in Darkside Ransomware over time. If this is the case here as well having a structure to unmarshal the json config into will save me some time down the road.
+With these novel BlackCat Ransomware samples this config extractor could easily be replaced by a bash one-liner (e.g. ```strings ... | grep "{\"config_id" > config.json```), but I expect that there will be config obfuscation/encryption added in future samples of BlackCat, similar to e.g. the changes made in Darkside Ransomware over time. If this is the case here as well having a structure to unmarshal the json config into will save me some time down the road.
 
 Speaking of Darkside/BlackMatteer: The configuration structure and values of BlackCat share significant similarities with those found in BlackMatter. The Korean Threat Intelligence company S2W Lab published [a thorough analysis of the similarities between these two Ransomware strains](https://medium.com/s2wlab/blackcat-new-rust-based-ransomware-borrowing-blackmatters-configuration-31c8d330a809).
 
