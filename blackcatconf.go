@@ -73,7 +73,7 @@ func getFileInfo(file string) int64 {
 // Flag variables for commandline arguments
 var jsonFlag bool
 
-// struct to store the configuration in
+// BlackCatConfig is used to store the extracted configuration
 type BlackCatConfig struct {
 	ID                     string      `json:"config_id"`
 	PubKey                 string      `json:"public_key"`
