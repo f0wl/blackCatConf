@@ -54,10 +54,11 @@ Speaking of Darkside/BlackMatteer: The configuration structure and values of Bla
 ## Testing
 
 This configuration extractor has been tested successfully with the following samples:
-
-|                             SHA-256                              |                     Sample                              |
-| :--------------------------------------------------------------: | :-----------------------------------------------------: |
-| 59868f4b346bd401e067380cac69080709c86e06fae219bfb5bc17605a71ab3f | [Malware Bazaar](https://bazaar.abuse.ch/sample/59868f4b346bd401e067380cac69080709c86e06fae219bfb5bc17605a71ab3f/) |
-| 731adcf2d7fb61a8335e23dbee2436249e5d5753977ec465754c6b699e9bf161 | [Malware Bazaar](https://bazaar.abuse.ch/sample/731adcf2d7fb61a8335e23dbee2436249e5d5753977ec465754c6b699e9bf161/) |
+|                             SHA-256                              |     OS     |                                                    Sample                                                          |
+| :--------------------------------------------------------------: |:----------:| :----------------------------------------------------------------------------------------------------------------: |
+| 59868f4b346bd401e067380cac69080709c86e06fae219bfb5bc17605a71ab3f |  Windows   | [Malware Bazaar](https://bazaar.abuse.ch/sample/59868f4b346bd401e067380cac69080709c86e06fae219bfb5bc17605a71ab3f/) |
+| 731adcf2d7fb61a8335e23dbee2436249e5d5753977ec465754c6b699e9bf161 |  Windows   | [Malware Bazaar](https://bazaar.abuse.ch/sample/731adcf2d7fb61a8335e23dbee2436249e5d5753977ec465754c6b699e9bf161/) |
+| 5121f08cf8614a65d7a86c2f462c0694c132e2877a7f54ab7fcefd7ee5235a42 |  Linux     | [VX-Underground](https://samples.vx-underground.org/samples/Families/BlackCatRansomware/linux/5121f08cf8614a65d7a86c2f462c0694c132e2877a7f54ab7fcefd7ee5235a42.7z) |
+| f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6 |  Linux     | [VX-Underground](https://samples.vx-underground.org/samples/Families/BlackCatRansomware/linux/f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6.7z) |
 
 If you encounter an error with blackCatConf, please file a bug report via an issue. Contributions are always welcome :)
