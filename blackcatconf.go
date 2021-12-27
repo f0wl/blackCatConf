@@ -192,7 +192,7 @@ func main() {
 	fmt.Fprintln(w1, "Directories to be excluded: \t", config.ExcludeDirectories)
 	fmt.Fprintln(w1, "Files to be excluded: \t", config.ExcludeFilesByName)
 	fmt.Fprintln(w1, "Extensions to be excluded: \t", config.ExcludeFilesByExt)
-	fmt.Fprintln(w1, "File Path Wildcards: \t", config.ExcludeFilesByName)
+	fmt.Fprintln(w1, "File Path Wildcards: \t", config.ExcludeFilePathWC)
 	fmt.Fprintln(w1, "Network Discovery: \t", config.NetworkDiscovery)
 	fmt.Fprintln(w1, "Self-Propagation: \t", config.SelfPropagation)
 	fmt.Fprintln(w1, "Set Wallpaper: \t", config.SetWallpaper)
