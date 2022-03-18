@@ -4,6 +4,8 @@
 
 blackCatConf is a static configuration extractor implemented in Golang for BlackCat Ransomware (targeting Microsoft Windows and GNU/Linux + VMware ESXi). By default the script will print the extracted information to stdout. It is also capable of dumping the malware configuration to disk as a JSON file with the ```-j``` flag.
 
+**Info:** This tool does currently not support the [new version](https://twitter.com/vxunderground/status/1504207503734804484) of BlackCat/ALPHV ransomware.
+
 ### Usage 
 
 ```shell
@@ -22,7 +24,7 @@ Sensitive victim information in the screenshot below and the example config file
 
 With these novel BlackCat Ransomware samples this config extractor could easily be replaced by a bash one-liner (e.g. ```strings ... | grep "{\"config_id" > config.json```), but I expect that there will be config obfuscation/encryption added in future samples of BlackCat, similar to e.g. the changes made in Darkside Ransomware over time. If this is the case here as well having a structure to unmarshal the json config into will save me some time down the road.
 
-Speaking of Darkside/BlackMatteer: The configuration structure and values of BlackCat share significant similarities with those found in BlackMatter. The Korean Threat Intelligence company S2W Lab published [a thorough analysis of the similarities between these two Ransomware strains](https://medium.com/s2wlab/blackcat-new-rust-based-ransomware-borrowing-blackmatters-configuration-31c8d330a809).
+Speaking of Darkside/BlackMatter: The configuration structure and values of BlackCat share significant similarities with those found in BlackMatter. The Korean Threat Intelligence company S2W Lab published [a thorough analysis of the similarities between these two Ransomware strains](https://medium.com/s2wlab/blackcat-new-rust-based-ransomware-borrowing-blackmatters-configuration-31c8d330a809).
 
 
 |             Key              |                     Value / Purpose                             |        Type         |
